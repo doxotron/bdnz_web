@@ -15,11 +15,11 @@ $logo = get_field('f1_logo');
 $text_rotator = get_field('f1_text_rotator');
 $rotator_text = get_field('f1_text_rotator_text');
 $tagline = get_field('f1_tagline');
+$company_video = get_field('company_video');
 
 //error_reporting(E_ALL); ini_set('display_errors', 1);
 
 get_header(); ?>
-
     <div id="primary" class="content-area">
         <main id="main" class="site-main">
             <?php while (have_posts()) : the_post(); ?>
@@ -44,6 +44,9 @@ get_header(); ?>
                                         </h3>
                                         <h4 class="text-white front-subheading text-md"><?= $rotator_text?></h4>
                                         <h4 class="text-white front-subheading text-md" style="margin-top:30px;"><?= $tagline?></h4>
+                                        <?php if ($company_video != ""): ?>
+                                        <a href="#" class="video-button"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                        <?php endif; ?>
                                     </div>
                                     <div class="front-scroll-cta"><span class="front-cta-line"></span></div>
                                 </div>
@@ -292,7 +295,19 @@ get_header(); ?>
             <?php endwhile; // End of the loop. ?>
         </main><!-- #main -->
     </div><!-- #primary -->
-
+    <?php if ($company_video != ""): ?>
+    <!-- Modal -->
+    <div class="video-modal">
+        <div class="video-modal-back">
+            <div class="video-modal-container">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/<?=$company_video?>?rel=0&amp;controls=0&amp;showinfo=0&autoplay=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                <div class="video-modal-close">
+                    &times;
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php endif; ?>
 <?php
 // get_sidebar();
 get_footer();

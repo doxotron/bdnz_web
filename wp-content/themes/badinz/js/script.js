@@ -115,6 +115,17 @@ $(document).ready(function () {
         $('body,html').toggleClass('scroll-block');
     });
 
+    $('.video-button').click(function () {
+       $(".video-modal").show();
+        var source = $('.video-modal iframe').attr('src').slice(0,-1);
+        $('.video-modal iframe').attr('src', source+'1');
+    });
+    $('.video-modal-back, .video-modal-close').click(function () {
+       $('.video-modal').hide();
+        var source = $('.video-modal iframe').attr('src').slice(0,-1);
+       $('.video-modal iframe').attr('src', source+'0');
+    });
+
     $("#loader").hide();
 
 });
