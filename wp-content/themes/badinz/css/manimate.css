@@ -1,0 +1,36 @@
+.manimate-container {
+    display:inline-block;
+    position: relative;
+    overflow:hidden;
+}
+.manimate-container * {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.manim-appear-bottom {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+}
+.manim-do-appear {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity:1;
+}
+
+.rotator-container {
+    display: inherit;
+    position: relative;
+    overflow: hidden;
+}
+.text-rotator {
+    position:relative;
+}
