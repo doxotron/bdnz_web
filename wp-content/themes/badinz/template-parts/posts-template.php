@@ -44,7 +44,7 @@ get_header(); ?>
 	                                        the_post_thumbnail( 'full');
                                         } else {
                                             $defaultPath = get_template_directory_uri();
-                                            echo "<img src='$defaultPath/images/featured_default.png' class='img-responsive'>";
+                                            echo "<img src='$defaultPath/images/default_feat_img_logo.png' class='img-responsive'>";
                                         }
                                         ?>
                                     </div>

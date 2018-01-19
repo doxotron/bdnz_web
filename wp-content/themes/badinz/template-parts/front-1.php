@@ -91,8 +91,7 @@ get_header(); ?>
                                                     <div class="row features-description">
 	                                                    <?php query_posts( array(
 		                                                    'post_type' => 'services',
-		                                                    'showposts' => 6,
-		                                                    'order'     => 'ASC'
+		                                                    'showposts' => 6
 	                                                    ) );
 	                                                    $slide = 0;
 	                                                    if ( have_posts() ):
@@ -190,7 +189,7 @@ get_header(); ?>
                                         </div>
                                         <div class="col-md-8 col-sm-8 col-xs-12">
                                             <div class="contact-form-container">
-                                                <form class="contact-form">
+                                                <!--<form class="contact-form">
                                                     <input id="contactName" name="contactName" placeholder="Your Name*">
                                                     <input id="contactEmail" name="contactEmail"
                                                            placeholder="Your Email*">
@@ -203,7 +202,8 @@ get_header(); ?>
                                                             message
                                                         </button>
                                                     </div>
-                                                </form>
+                                                </form>-->
+                                                <?php echo do_shortcode('[wpforms id="138"]');?>
                                             </div>
                                         </div>
                                     </div>
@@ -230,7 +230,7 @@ get_header(); ?>
 		                                                    the_post_thumbnail( 'full' );
 	                                                    } else {
 		                                                    $defaultImage = get_template_directory_uri();
-		                                                    echo "<img src='$defaultImage/images/featured_default.png' class='img-responsive'>";
+		                                                    echo "<img src='$defaultImage/images/default_feat_img_logo.png' class='img-responsive'>";
 	                                                    }
 	                                                    ?>
                                                     </div>
@@ -270,7 +270,7 @@ get_header(); ?>
 						                                    the_post_thumbnail( 'full' );
 					                                    } else {
 						                                    $defaultImage = get_template_directory_uri();
-						                                    echo "<img src='$defaultImage/images/featured_default.png' class='img-responsive'>";
+						                                    echo "<img src='$defaultImage/images/default_feat_img_logo.png' class='img-responsive'>";
 					                                    }
 					                                    ?>
                                                     </div>

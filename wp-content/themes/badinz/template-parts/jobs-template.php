@@ -15,12 +15,13 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<article id="post-<?php the_ID(); ?>">
 					<section class="post-head-section"
-					         style="background:url('<?php if (has_post_thumbnail()) { the_post_thumbnail_url("full");} else {echo get_template_directory_uri()."/images/featured_default_2.png";}?>') top center no-repeat fixed; -webkit-background-size: cover;background-size: cover;"
+					         style="background:url('<?php if (has_post_thumbnail() || the_post_thumbnail() != '') { the_post_thumbnail_url("full");} else {echo get_template_directory_uri()."/images/default_feat_img.png";}?>') top center no-repeat fixed; -webkit-background-size: cover;background-size: cover;"
 					         data-type="background" data-speed="2">
 						<div class="container site-section">
 							<div class="row">
 								<div class="col-xs-10">
 									<h2 class="text-white page-title"><?php the_title() ?></h2>
+
 								</div>
 							</div>
 						</div>
@@ -44,7 +45,7 @@ get_header(); ?>
 												the_post_thumbnail( 'full' );
 											} else {
 												$defaultImage = get_template_directory_uri();
-												echo "<img src='$defaultImage/images/featured_default.png' class='img-responsive'>";
+												echo "<img src='$defaultImage/images/default_feat_img_logo.png' class='img-responsive'>";
 											}
 											?>
 										</div>
