@@ -131,4 +131,43 @@
     .menu-primary-menu-container {
         clear:both;
     }
+
+    /* 22/01/2018 - Dojca */
+    /* .navbar-toggle {
+      margin-right: 30px;
+    } */
+    .video-container {
+      z-index: -1;
+    }
+    .video {
+      margin: 0 -15px;
+    }
+    .front-heading {
+      top: 40%;
+    }
+    .front-hero-logo {
+      max-width: 80px;
+    }
+    .front-subheading {
+      font-size: 26px;
+    }
+    .front-subheading .text-md {
+      font-size: 16px;
+    }
+    .front-scroll-cta {
+      bottom: 75px;
+    }
+
+    .post-row {
+      padding-top: 15px;
+    }
+    .post-row h4 {
+      margin: 15px 0;
+    }
+
+    .partners-section .text-lg {
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+
 }
