@@ -1,3 +1,14 @@
+@media screen and (max-width: 1366px)  {
+    .front-heading {
+        top:45%;
+    }
+    .front-hero-logo {
+        max-width:120px;
+    }
+    .front-scroll-cta {
+        bottom:2%;
+    }
+}
 @media screen and (max-width: 1024px) {
     .site-section {
         padding: 20px 20px 40px;
