@@ -45,6 +45,7 @@ if ( ! function_exists( 'badinz_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'badinz' ),
+			'menu-social' => esc_html__( 'Social Menu', 'badinz' ),
 		) );
 
 		/*
@@ -129,7 +130,7 @@ function badinz_scripts() {
 	//wp_enqueue_style( 'badinz-style', get_stylesheet_uri() );
     //wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', array(), '20171225', false);
     wp_enqueue_style( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' );
-    wp_enqueue_style( 'fontawesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
+	wp_enqueue_style( 'fontawesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
     wp_enqueue_style( 'main', get_template_directory_uri() . '/css/styles.css' );
     wp_enqueue_style( 'mediacss', get_template_directory_uri() . '/css/media.css' );
 
