@@ -15,21 +15,21 @@
 <footer>
     <div class="container site-section">
         <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="col-md-4 col-sm-6 col-xs-12 text-center-xs">
 		        <?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
                     <div id="secondary" class="widget-area" role="complementary">
 				        <?php dynamic_sidebar( 'footer-1' ); ?>
                     </div>
 		        <?php endif; ?>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="col-md-4 col-sm-6 col-xs-12 text-center-xs">
 		        <?php if ( is_active_sidebar( 'footer-2' ) ) : ?>
                     <div id="secondary" class="widget-area" role="complementary">
 				        <?php dynamic_sidebar( 'footer-2' ); ?>
                     </div>
 		        <?php endif; ?>
             </div>
-            <div class="col-md-2 col-sm-11 col-xs-6 footer-social">
+            <div class="col-md-2 col-sm-6 col-xs-12 footer-social text-center-xs">
 		        <?php
 		        wp_nav_menu(array(
 			        'theme_location' => 'menu-social',
@@ -37,7 +37,7 @@
 		        ));
 		        ?>
             </div>
-            <div class="col-md-2 col-sm-1 col-xs-6">
+            <div class="col-md-2 col-sm-6 col-xs-12 text-center-xs">
 		        <?php if ( is_active_sidebar( 'footer-3' ) ) : ?>
                     <div id="secondary" class="widget-area" role="complementary">
 				        <?php dynamic_sidebar( 'footer-3' ); ?>

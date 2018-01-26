@@ -291,7 +291,7 @@ hr {
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
-    font-size: 30px;
+    font-size: 24px;
 }
 .footer-social .footer-linkedin a::after {
     content: '\f0e1';
@@ -355,7 +355,7 @@ a.custom-logo-link, a.custom-logo-link:hover, a.custom-logo-link:focus, a.custom
     margin-right:0;
 }
 .site-header.solid-color,
-.error404 .site-header {
+body.error404 .site-header {
     background-color: #ffffff;
     border:none;
     -webkit-box-shadow: inset 0 -1px 0 rgba(37,48,104,0.1);
@@ -751,6 +751,7 @@ a.video-button > i {
 }
 .button-white:hover, .button-white:focus, .button-white:active {
     color: #253068;
+    font-weight: normal;
     padding:8px 20px;
     text-decoration: none;
     -webkit-box-shadow: inset 150px 0 0 #fff;
@@ -776,6 +777,7 @@ a.video-button > i {
     -moz-box-shadow: inset 180px 0 0 #2d3845 !important;
     box-shadow: inset 180px 0 0 #2d3845 !important;
     outline:none !important;
+    font-weight: normal;
 }
 .partners-section {
     background-color: #2d3845;

@@ -189,5 +189,10 @@
       margin: 40px 0 10px;
       font-size: 30px;
     }
-
+    a.back-top {
+        float: none;
+        position:relative;
+        display: block;
+        margin-bottom: 30px;
+    }
 }

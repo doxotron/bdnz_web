@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd37d2ba-7d0b-4cfc-91fe-818d2d4ef776" name="Default" comment="" />
+    <list default="true" id="fd37d2ba-7d0b-4cfc-91fe-818d2d4ef776" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/badinz/css/media.css" afterPath="$PROJECT_DIR$/wp-content/themes/badinz/css/media.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/badinz/css/styles.css" afterPath="$PROJECT_DIR$/wp-content/themes/badinz/css/styles.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/badinz/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/badinz/footer.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/badinz/template-parts/front-1.php" afterPath="$PROJECT_DIR$/wp-content/themes/badinz/template-parts/front-1.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,50 +20,18 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="132" column="117" lean-forward="false" selection-start-line="132" selection-start-column="117" selection-end-line="132" selection-end-column="117" />
+            <state relative-caret-position="2032">
+              <caret line="133" column="81" lean-forward="false" selection-start-line="133" selection-start-column="81" selection-end-line="133" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="293" column="17" lean-forward="false" selection-start-line="293" selection-start-column="17" selection-end-line="293" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="133" column="7" lean-forward="false" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
-              <folding>
-                <marker date="1516916507345" expanded="true" signature="6416:6567" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="media.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/css/media.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="430">
+              <caret line="357" column="4" lean-forward="false" selection-start-line="357" selection-start-column="4" selection-end-line="357" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -66,46 +40,55 @@
       <file leaf-file-name="front-1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/template-parts/front-1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="494">
+              <caret line="45" column="78" lean-forward="false" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
               <folding>
-                <element signature="e#17693#17700#0#HTML" expanded="true" />
-                <element signature="e#20348#20355#0#HTML" expanded="true" />
+                <element signature="e#12133#12161#0#HTML" expanded="true" />
+                <element signature="e#12271#12301#0#HTML" expanded="true" />
+                <element signature="e#12462#12488#0#HTML" expanded="true" />
+                <element signature="e#12654#12684#0#HTML" expanded="true" />
+                <element signature="e#12853#12879#0#HTML" expanded="true" />
+                <element signature="e#16644#16651#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jobs-template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/template-parts/jobs-template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="54" column="100" lean-forward="false" selection-start-line="54" selection-start-column="100" selection-end-line="54" selection-end-column="100" />
-              <folding>
-                <element signature="e#364#644#0#HTML" expanded="true" />
-                <element signature="e#2133#2140#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="posts-template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/template-parts/posts-template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-              <folding>
-                <element signature="e#2808#2815#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="368">
+              <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="media.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/css/media.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="992">
+              <caret line="189" column="22" lean-forward="true" selection-start-line="189" selection-start-column="22" selection-end-line="189" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2192">
+              <caret line="137" column="7" lean-forward="false" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -115,12 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.feature img</find>
-      <find>reply</find>
-      <find>reply-title</find>
-      <find>site-section</find>
-      <find>logged in</find>
-      <find>edit</find>
       <find>Posted on</find>
       <find>text-md</find>
       <find>a:hover</find>
@@ -145,6 +122,12 @@
       <find>error_reporting</find>
       <find>primary</find>
       <find>social</find>
+      <find>footer-</find>
+      <find>front-headin</find>
+      <find>front-subheading</find>
+      <find>center</find>
+      <find>.button-dark:hover, .button-dark:focus, .button-dark:active</find>
+      <find>404</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\badinz</dir>
@@ -171,14 +154,14 @@
         <option value="$PROJECT_DIR$/wp-content/themes/badinz/template-parts/.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/badinz/template-parts/about-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/badinz/assets/editor-style-shared.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/badinz/css/media.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/badinz/template-parts/front-1.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/badinz/template-parts/jobs-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/badinz/template-parts/posts-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/badinz/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/badinz/js/script.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/badinz/css/styles.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/badinz/template-parts/front-1.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/badinz/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/badinz/css/media.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/badinz/css/styles.css" />
       </list>
     </option>
   </component>
@@ -200,10 +183,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1358" />
+    <option name="y" value="-679" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -221,8 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,23 +235,7 @@
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="badinz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="badinz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="badinz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="badinz" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="badinz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="badinz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="badinz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="badinz" type="b2602c69:ProjectViewProjectNode" />
@@ -284,6 +249,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,33 +296,35 @@
       <workItem from="1516614778936" duration="242000" />
       <workItem from="1516888832443" duration="756000" />
       <workItem from="1516911308972" duration="6159000" />
+      <workItem from="1516957579458" duration="79000" />
+      <workItem from="1516957676001" duration="4533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87679000" />
+    <option name="totallyTimeSpent" value="92291000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="1358" y="-679" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1953125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.104928456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -431,8 +400,12 @@
         <state relative-caret-position="4864">
           <caret line="309" column="19" lean-forward="false" selection-start-line="309" selection-start-column="19" selection-end-line="309" selection-end-column="19" />
           <folding>
-            <element signature="e#17693#17700#0#HTML" expanded="true" />
-            <element signature="e#20348#20355#0#HTML" expanded="true" />
+            <element signature="e#12133#12161#0#HTML" expanded="true" />
+            <element signature="e#12271#12301#0#HTML" expanded="true" />
+            <element signature="e#12462#12488#0#HTML" expanded="true" />
+            <element signature="e#12654#12684#0#HTML" expanded="true" />
+            <element signature="e#12853#12879#0#HTML" expanded="true" />
+            <element signature="e#16644#16651#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -472,8 +445,12 @@
         <state relative-caret-position="4512">
           <caret line="287" column="39" lean-forward="false" selection-start-line="287" selection-start-column="39" selection-end-line="287" selection-end-column="39" />
           <folding>
-            <element signature="e#17693#17700#0#HTML" expanded="true" />
-            <element signature="e#20348#20355#0#HTML" expanded="true" />
+            <element signature="e#12133#12161#0#HTML" expanded="true" />
+            <element signature="e#12271#12301#0#HTML" expanded="true" />
+            <element signature="e#12462#12488#0#HTML" expanded="true" />
+            <element signature="e#12654#12684#0#HTML" expanded="true" />
+            <element signature="e#12853#12879#0#HTML" expanded="true" />
+            <element signature="e#16644#16651#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -528,8 +505,12 @@
         <state relative-caret-position="3488">
           <caret line="218" column="53" lean-forward="true" selection-start-line="218" selection-start-column="53" selection-end-line="218" selection-end-column="53" />
           <folding>
-            <element signature="e#17693#17700#0#HTML" expanded="true" />
-            <element signature="e#20348#20355#0#HTML" expanded="true" />
+            <element signature="e#12133#12161#0#HTML" expanded="true" />
+            <element signature="e#12271#12301#0#HTML" expanded="true" />
+            <element signature="e#12462#12488#0#HTML" expanded="true" />
+            <element signature="e#12654#12684#0#HTML" expanded="true" />
+            <element signature="e#12853#12879#0#HTML" expanded="true" />
+            <element signature="e#16644#16651#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -653,56 +634,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/css/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/template-parts/jobs-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="54" column="100" lean-forward="false" selection-start-line="54" selection-start-column="100" selection-end-line="54" selection-end-column="100" />
-          <folding>
-            <element signature="e#364#644#0#HTML" expanded="true" />
-            <element signature="e#2133#2140#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/template-parts/posts-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-          <folding>
-            <element signature="e#2808#2815#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="132" column="117" lean-forward="false" selection-start-line="132" selection-start-column="117" selection-end-line="132" selection-end-column="117" />
+        <state relative-caret-position="2032">
+          <caret line="133" column="81" lean-forward="false" selection-start-line="133" selection-start-column="81" selection-end-line="133" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="133" column="7" lean-forward="false" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
-          <folding>
-            <marker date="1516916507345" expanded="true" signature="6416:6567" ph="..." />
-          </folding>
+        <state relative-caret-position="2192">
+          <caret line="137" column="7" lean-forward="false" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/template-parts/posts-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/template-parts/jobs-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="54" column="105" lean-forward="false" selection-start-line="54" selection-start-column="105" selection-end-line="54" selection-end-column="105" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="272">
           <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="23" />
           <folding />
         </state>
@@ -710,27 +674,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/template-parts/front-1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        <state relative-caret-position="494">
+          <caret line="45" column="78" lean-forward="false" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
           <folding>
-            <element signature="e#17693#17700#0#HTML" expanded="true" />
-            <element signature="e#20348#20355#0#HTML" expanded="true" />
+            <element signature="e#12133#12161#0#HTML" expanded="true" />
+            <element signature="e#12271#12301#0#HTML" expanded="true" />
+            <element signature="e#12462#12488#0#HTML" expanded="true" />
+            <element signature="e#12654#12684#0#HTML" expanded="true" />
+            <element signature="e#12853#12879#0#HTML" expanded="true" />
+            <element signature="e#16644#16651#0#HTML" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="293" column="17" lean-forward="false" selection-start-line="293" selection-start-column="17" selection-end-line="293" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="368">
+          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="992">
+          <caret line="189" column="22" lean-forward="true" selection-start-line="189" selection-start-column="22" selection-end-line="189" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/badinz/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="357" column="4" lean-forward="false" selection-start-line="357" selection-start-column="4" selection-end-line="357" selection-end-column="4" />
           <folding />
         </state>
       </provider>

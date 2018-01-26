@@ -43,9 +43,9 @@ get_header(); ?>
                                             Smart
                                         </h3>
                                         <h4 class="text-white front-subheading text-md"><?= $rotator_text?></h4>
-                                        <h4 class="text-white front-subheading text-md"><?= $tagline?></h4>
+                                        <h4 class="text-white front-subheading"><?= $tagline?></h4>
                                         <?php if ($company_video != ""): ?>
-                                        <a href="#" class="video-button"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                            <a href="#" class="video-button"><i class="fa fa-play" aria-hidden="true"></i></a>
                                         <?php endif; ?>
                                     </div>
                                     <div class="front-scroll-cta"><span class="front-cta-line"></span></div>
@@ -57,24 +57,24 @@ get_header(); ?>
                                     <div>
                                         <div class="col-md-12">
                                             <div class="row">
-	                                            <?php the_content(); ?>
+                                                <?php the_content(); ?>
                                             </div>
 
                                             <div class="row features-group">
                                                 <div class="col-md-6 col-sm-12">
                                                     <div class="row">
-	                                                    <?php query_posts(array('post_type' => 'services','showposts' => 6,'order'    => 'ASC') );
-	                                                    $feature = 0;
-	                                                    if (have_posts()):
+                                                        <?php query_posts(array('post_type' => 'services','showposts' => 6,'order'    => 'ASC') );
+                                                        $feature = 0;
+                                                        if (have_posts()):
                                                             while (have_posts()) : the_post();
-	                                                    ?>
+                                                                ?>
                                                                 <div class="col-md-4 col-sm-2 col-xs-4 feature<?php if($feature == 0) {echo ' active-feature';} ?>">
                                                                     <div class="feature-center">
-			                                                            <?php the_post_thumbnail('full'); ?>
+                                                                        <?php the_post_thumbnail('full'); ?>
                                                                         <p><?php the_title(); ?></p>
                                                                     </div>
                                                                 </div>
-	                                                            <?php $feature++ ?>
+                                                                <?php $feature++ ?>
                                                             <?php endwhile; endif; wp_reset_query(); // End of the loop. ?>
                                                     </div>
                                                 </div>
@@ -90,23 +90,23 @@ get_header(); ?>
                                                         </div>
                                                     </div>
                                                     <div class="row features-description">
-	                                                    <?php query_posts( array(
-		                                                    'post_type' => 'services',
-		                                                    'showposts' => 6
-	                                                    ) );
-	                                                    $slide = 0;
-	                                                    if ( have_posts() ):
-		                                                    while ( have_posts() ) : the_post();
-			                                                    ?>
+                                                        <?php query_posts( array(
+                                                            'post_type' => 'services',
+                                                            'showposts' => 6
+                                                        ) );
+                                                        $slide = 0;
+                                                        if ( have_posts() ):
+                                                            while ( have_posts() ) : the_post();
+                                                                ?>
                                                                 <div class="feature-descr-slide<?php if ( $slide == 0 ) {
-				                                                    echo ' active-slide';
-			                                                    }; ?>">
+                                                                    echo ' active-slide';
+                                                                }; ?>">
                                                                     <h4 class="text-white text-right"><?php the_title(); ?></h4>
                                                                     <span class="text-white text-right"><?php the_content(); ?></span>
                                                                 </div>
-			                                                    <?php $slide ++ ?>
-		                                                    <?php endwhile; endif;
-	                                                    wp_reset_query(); // End of the loop. ?>
+                                                                <?php $slide ++ ?>
+                                                            <?php endwhile; endif;
+                                                        wp_reset_query(); // End of the loop. ?>
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-xs-12 text-right">
@@ -190,20 +190,6 @@ get_header(); ?>
                                         </div>
                                         <div class="col-md-8 col-sm-8 col-xs-12">
                                             <div class="contact-form-container">
-                                                <!--<form class="contact-form">
-                                                    <input id="contactName" name="contactName" placeholder="Your Name*">
-                                                    <input id="contactEmail" name="contactEmail"
-                                                           placeholder="Your Email*">
-                                                    <input id="contactSubject" name="contactSubject"
-                                                           placeholder="Subject*">
-                                                    <textarea id="contactMessage" name="contactMessage"
-                                                              placeholder="Your Message*"></textarea>
-                                                    <div class="text-right">
-                                                        <button class="button button-dark" style="margin-top:20px;">Send
-                                                            message
-                                                        </button>
-                                                    </div>
-                                                </form>-->
                                                 <?php echo do_shortcode('[wpforms id="138"]');?>
                                             </div>
                                         </div>
@@ -211,29 +197,29 @@ get_header(); ?>
                                 </div>
                             </section>
                             <?php  query_posts( array(
-	                            'post_type' => 'post',
-	                            'showposts' => 3
+                                'post_type' => 'post',
+                                'showposts' => 3
                             ) );
                             if ( have_posts() ):?>
-                            <section class="news-section">
-                                <div class="container site-section">
-                                    <div class="col-md-3">
-                                        <h3 class="text-black text-right text-center-xs">News</h3>
-                                    </div>
-                                    <div class="col-md-9">
-	                                    <?php
+                                <section class="news-section">
+                                    <div class="container site-section">
+                                        <div class="col-md-3">
+                                            <h3 class="text-black text-right text-center-xs">Worth reading</h3>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <?php
 
-		                                    while ( have_posts() ) : the_post();
-			                                    ?>
+                                            while ( have_posts() ) : the_post();
+                                                ?>
                                                 <div class="row post-row">
                                                     <div class="col-md-4 col-sm-12 col-xs-12">
-	                                                    <?php if (has_post_thumbnail()) {
-		                                                    the_post_thumbnail( 'full' );
-	                                                    } else {
-		                                                    $defaultImage = get_template_directory_uri();
-		                                                    echo "<img src='$defaultImage/images/default_feat_img_logo.png' class='img-responsive'>";
-	                                                    }
-	                                                    ?>
+                                                        <?php if (has_post_thumbnail()) {
+                                                            the_post_thumbnail( 'full' );
+                                                        } else {
+                                                            $defaultImage = get_template_directory_uri();
+                                                            echo "<img src='$defaultImage/images/default_feat_img_logo.png' class='img-responsive'>";
+                                                        }
+                                                        ?>
                                                     </div>
                                                     <div class="col-sm-8 col-sm-12 col-xs-12">
                                                         <a href="<?php the_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
@@ -241,39 +227,39 @@ get_header(); ?>
                                                         <p><a href="<?php the_permalink(); ?>">Read more &raquo;</a></p>
                                                     </div>
                                                 </div>
-		                                    <?php endwhile; ?>
+                                            <?php endwhile; ?>
+                                        </div>
+                                        <div class="col-xs-12 text-center">
+                                            <a href="<?= get_home_url() ?>/blog" class="button button-dark">View all posts</a>
+                                        </div>
                                     </div>
-                                    <div class="col-xs-12 text-center">
-                                        <a href="<?= get_home_url() ?>/news" class="button button-dark">View all news</a>
-                                    </div>
-                                </div>
-                            </section>
-                                <?php  endif;
+                                </section>
+                            <?php  endif;
                             wp_reset_query(); // End of the loop.  ?>
                             <?php
                             query_posts( array(
-	                            'post_type' => 'jobs',
-	                            'showposts' => 3
+                                'post_type' => 'jobs',
+                                'showposts' => 3
                             ) );
                             if ( have_posts() ): ?>
-                            <section class="light-grey-section jobs-section">
-                                <div class="container site-section">
-                                    <div class="col-md-3">
-                                        <h3 class="text-black text-right text-center-xs">Latest job openings</h3>
-                                    </div>
-                                    <div class="col-md-9">
-	                                    <?php
-		                                    while ( have_posts() ) : the_post();
-			                                    ?>
+                                <section class="light-grey-section jobs-section">
+                                    <div class="container site-section">
+                                        <div class="col-md-3">
+                                            <h3 class="text-black text-right text-center-xs">Latest job openings</h3>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <?php
+                                            while ( have_posts() ) : the_post();
+                                                ?>
                                                 <div class="row post-row">
                                                     <div class="col-md-4 col-sm-12 col-xs-12">
-					                                    <?php if (has_post_thumbnail()) {
-						                                    the_post_thumbnail( 'full' );
-					                                    } else {
-						                                    $defaultImage = get_template_directory_uri();
-						                                    echo "<img src='$defaultImage/images/default_feat_img_logo.png' class='img-responsive'>";
-					                                    }
-					                                    ?>
+                                                        <?php if (has_post_thumbnail()) {
+                                                            the_post_thumbnail( 'full' );
+                                                        } else {
+                                                            $defaultImage = get_template_directory_uri();
+                                                            echo "<img src='$defaultImage/images/default_feat_img_logo.png' class='img-responsive'>";
+                                                        }
+                                                        ?>
                                                     </div>
                                                     <div class="col-sm-8 col-sm-12 col-xs-12">
                                                         <a href="<?php the_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
@@ -281,14 +267,14 @@ get_header(); ?>
                                                         <p><a href="<?php the_permalink(); ?>">Read more &raquo;</a></p>
                                                     </div>
                                                 </div>
-		                                    <?php endwhile; ?>
+                                            <?php endwhile; ?>
+                                        </div>
+                                        <div class="col-xs-12 text-center">
+                                            <a href="<?= get_home_url() ?>/careers" class="button button-dark">View all jobs</a>
+                                        </div>
                                     </div>
-                                    <div class="col-xs-12 text-center">
-                                        <a href="<?= get_home_url() ?>/careers" class="button button-dark">View all jobs</a>
-                                    </div>
-                                </div>
-                            </section>
-                                <?php  endif;
+                                </section>
+                            <?php  endif;
                             wp_reset_query(); // End of the loop. ?>
                         </div>
                     </div>
@@ -296,7 +282,7 @@ get_header(); ?>
             <?php endwhile; // End of the loop. ?>
         </main><!-- #main -->
     </div><!-- #primary -->
-    <?php if ($company_video != ""): ?>
+<?php if ($company_video != ""): ?>
     <!-- Modal -->
     <div class="video-modal">
         <div class="video-modal-back">
@@ -308,7 +294,7 @@ get_header(); ?>
             </div>
         </div>
     </div>
-    <?php endif; ?>
+<?php endif; ?>
 <?php
 // get_sidebar();
 get_footer();
