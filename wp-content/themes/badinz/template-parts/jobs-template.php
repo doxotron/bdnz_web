@@ -52,7 +52,7 @@ get_header(); ?>
 										<div class="col-md-8 col-sm-12 col-xs-12">
 											<a href="<?php the_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
 											<p><?php the_excerpt(); ?></p>
-											<p><a href="<?php the_permalink(); ?>">Read more...</a></p>
+											<p><a href="<?php the_permalink(); ?>">Read more &raquo;</a></p>
 										</div>
 									</div>
 								<?php endwhile; ?>
