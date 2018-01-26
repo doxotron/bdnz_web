@@ -43,7 +43,7 @@ get_header(); ?>
                                             Smart
                                         </h3>
                                         <h4 class="text-white front-subheading text-md"><?= $rotator_text?></h4>
-                                        <h4 class="text-white front-subheading text-md" style="margin-top:30px;"><?= $tagline?></h4>
+                                        <h4 class="text-white front-subheading text-md"><?= $tagline?></h4>
                                         <?php if ($company_video != ""): ?>
                                         <a href="#" class="video-button"><i class="fa fa-play" aria-hidden="true"></i></a>
                                         <?php endif; ?>

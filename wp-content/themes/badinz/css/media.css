@@ -143,15 +143,12 @@
         clear:both;
     }
 
-    /* 22/01/2018 - Dojca */
-    /* .navbar-toggle {
-      margin-right: 30px;
-    } */
-    .video-container {
-      z-index: -1;
-    }
-    .video {
+    /* 26/01/2018 - Dojca */
+    .homepage-hero-module .video {
       margin: 0 -15px;
+    }
+    .homepage-hero-module .video-button {
+      margin-top: 10px;
     }
     .front-heading {
       top: 40%;
@@ -160,7 +157,8 @@
       max-width: 80px;
     }
     .front-subheading {
-      font-size: 26px;
+      font-size: 24px;
+      margin: 10px auto 5px;
     }
     .front-subheading .text-md {
       font-size: 16px;
@@ -168,14 +166,21 @@
     .front-scroll-cta {
       bottom: 75px;
     }
-
     .post-row {
       padding-top: 15px;
     }
     .post-row h4 {
       margin: 15px 0;
     }
-
+    .features-section {
+      position: relative;
+    }
+    .features-description {
+      margin-bottom: 25px;
+    }
+    .features-group .button {
+      display: inline-block;
+    }
     .partners-section .text-lg {
       font-size: 26px;
       margin-bottom: 20px;
